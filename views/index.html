@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>NoScriptRDR | Will M</title>
+    <link rel="icon" href="https://willm.xyz/mr_quackers.png">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!--import the webpage's script-->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1 class="center">NoScriptRDR<br><span style="font-size: 18px"><i>Beautiful no-script pages for your website.</i></span></h1>
+    
+<hr>
+    <p>
+      NoScriptRDR is a no-script page generator. You can make easy pages that show a user doesn't have JavaScript enabled. Also, this site is open source on <a href="https://github.com/whasonyt/noscriptrdr">GitHub</a>.
+    </p>
+    
+    <form action="/make-it" class="center">
+      <input type="url" name="url" placeholder="Website URL" required><br>
+      <label for="theme">Dark or Light Page?</label>
+      <select name="theme" required>
+  <option value="dark">Dark</option>
+  <option value="light">Light</option>
+      </select><br>
+      <input style="cursor: pointer; background: black; color: white;" type="submit" value="Create!">
+    </form>
+    <!-- JS Check -->
+    <noscript><span style="color: red">You don't have JavaScript enabled! Please enable it.</span></noscript>
+<footer>For testing purposes, please have JavaScript enabled on NoScriptRDR while creating your page.<br>
+Made with <span style="color: red">❤</span> by <a href="https://willm.xyz">Will M</a>.
+    </footer>
+ </body>
+</html>

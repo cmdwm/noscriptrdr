@@ -1,0 +1,20 @@
+      html {
+  scroll-behavior: smooth;
+      }
+      body {
+        background: #23272A;
+        color: white;
+      }
+      	a {
+color: inherit;
+	}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: inherit;
+   color: inherit;
+   text-align: center;
+  border: 1px solid black;
+}
